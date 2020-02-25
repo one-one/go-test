@@ -15,5 +15,5 @@ func main() {
 		timeStr := fmt.Sprintf("{\"time\":\"%s\"}", t)
 		w.Write([]byte(timeStr))
 	})
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8088", nil)
 }
